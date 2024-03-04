@@ -1,0 +1,65 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+#legend {
+  padding: 30px;
+  border-radius: 20px;
+}
+
+p {
+  color: red;
+  margin-bottom: 20px;
+}
+
+#successMsg {
+  background-color: rgba(0, 166, 255, 0.952);
+  width: 400px;
+  height: 20px;
+  color: white;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+}
+
+input {
+  width: 400px;
+  padding: 10px;
+  margin: 5px;
+  /* margin-bottom: -10px; */
+  border: none;
+  border-radius: 5px;
+
+}
+
+form input[type="submit"] {
+  background-color: #41a341;
+  color: white;
+  width: 430px;
+  border: 0;
+  height: 40px;
+}
